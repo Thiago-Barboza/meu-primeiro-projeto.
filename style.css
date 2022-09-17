@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nort, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.center{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 2%;
+    display: inline;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200,200,200)
+
+}
+
+.img{
+    font: optional;
+    align-items: ;
+
+}
+.logo{
+    color: #16507b ;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.menu{
+    width: 70%;
+    text-align: right;
+
+}
+
+
+.menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+.menu a:hover{
+    color: #007bff;
+
+}
+ 
+.menu .btn-menu{
+    background-color: #124265;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+
+
+}
+.menu.btn-menu:hover{
+    background-color: #124265;
+    color: white;
+}
+
+section.main{
+    text-align: center;
+    background-image:
+  linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+  url('catfront.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main_cta h2{
+    color: #16507b;
+    font-size: 40px;
+
+}
+
+.main_cta p{
+    color: grey;
+    font-size: 19px;
+    margin: 10px;
+
+}
+
+.main_cta button{
+    background-color: #124265;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+    border: o;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.diferencial{
+ display:flex;
+ 
+ 
+
+    
+   
+}
+
+.diferencial-single{
+    background-color: white;
+    width: 23%;
+    margin: 1%;  
+    
+    
+}
+
+section.sobre{
+    padding: 80px 0;
+
+}
+
+.chamada-sobre{
+    text-align: center;
+}
+
+.chamada-sobre h2{
+    color: #007bff;
+    
+
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: rgb(218, 11, 11);
+    margin: 1%;
+    
+
+}
+
+.conteudo-sobre{display: flex;}
+
+@media  screen and (max-width: 768px) {
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+    
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
